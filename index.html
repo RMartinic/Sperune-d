@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="home.css">
+    <script src="https://kit.fontawesome.com/1ca0ae003b.js" crossorigin="anonymous"></script>
+    <script src="./home.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sperun</title>
+</head>
+<body>
+    <header>
+        <h1>Šperun eat and drink</h1>
+        <button><i class="fa-solid fa-house"></i>Home</button>
+        <button><i class="fa-solid fa-list"></i>Menu</button>
+        <button><i class="fa-solid fa-images"></i>Gallery</button>
+        <button><i class="fa-solid fa-phone"></i>Contact</button>
+        <label for="lang"><i class="fa-solid fa-language"></i>Language</label>
+        <select name="lang" id="langselect" onchange="chglang(Array)">
+            <option value="eng">English</option>
+            <option value="fra">Français</option>
+            <option value="ita">Italiano</option>
+            <option value="deu">Deutsch</option>
+            <option value="spa">Español</option>
+            <option value="por">Português</option>
+            <option value="cha">中国人</option>
+            <option value="jap">日本語</option>
+        </select>
+        <hr />
+    </header>
+    <main>
+    <img src ="outdoor.jpg" id="sperunmain" >
+    <p id="intro">
+        Sperun is a small runn restaurant with authentic Dalmatian and Croatian cuisine. It opened in 2000. and number of satisfied guests are rising by the year.
+        Located in the city centre, it offers briliant views of vibrant Sperun square while offering privacy from Riva promanade.
+        Come and dine like all Dalmatians do!
+    </p>
+<div class ="lokacija">
+    <i class ="fas fa-map-marker"></i>
+    <p>Šperun ul.3, 21000 Split</p>
+</div>
+<div class ="vrijeme">
+    <i class="far fa-clock"></i>
+    <p>10:00 - 24:00</p>
+    <p id="working-days">Tuesday - Sunday</p>
+</div>
+</main>
+<footer>@RokoMartinic product</footer>
+</body>
+</html>

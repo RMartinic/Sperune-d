@@ -1,0 +1,19 @@
+main{
+    background-color: cornsilk;
+}
+header, footer{
+    background-color: #004526;
+    color:cornsilk
+}
+h1{
+    color: cornsilk;
+    font-family: 'Brush Script MT', cursive;
+    font-size: xx-large;
+}
+button{
+    background-color: cornsilk;
+    color: #004526;
+}
+main>p,.lokacija,.vrijeme{
+    color: #00573F;
+}
