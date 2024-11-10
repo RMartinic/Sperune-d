@@ -14,7 +14,6 @@
         <button><i class="fa-solid fa-house"></i>Home</button>
         <button><i class="fa-solid fa-list"></i>Menu</button>
         <button><i class="fa-solid fa-images"></i>Gallery</button>
-        <button><i class="fa-solid fa-phone"></i>Contact</button>
         <label for="lang"><i class="fa-solid fa-language"></i>Language</label>
         <select name="lang" id="langselect" onchange="chglang(Array)">
             <option value="eng">English</option>
@@ -29,7 +28,51 @@
         <hr />
     </header>
     <main>
-    <img src ="outdoor.jpg" id="sperunmain" >
+        <div class="slideshow">
+        <div class="slideshow-container">
+            <div class="slide">
+              <img src="outdoor.jpg" alt="Image 1">
+            </div>
+            <div class="slide">
+              <img src="sperun-inside.jpg" alt="Image 2" id="image-2">
+            </div>
+            <div class="slide">
+              <img src="appetizers.jpg" alt="Image 3" id="image-3">
+            </div>
+            <div class="slide">
+                <img src="main-meals-outside.jpg" alt="Image 3" id="image-3">
+              </div>
+              <div class="slide">
+                <img src="main-meals-outside.jpg" alt="Image 4" id="image-4">
+              </div>
+              <div class="slide">
+                <img src="outside.JPG" alt="Image 5" id="image-5">
+              </div>
+              <div class="slide">
+                <img src="pastiacada-tuna.jpg" alt="Image 6" id="image-6">
+              </div>
+              <div class="slide">
+                <img src="skampi-buzara.jpg" alt="Image 7" id="image-7">
+              </div>
+              <div class="slide">
+                <img src="spaghetti-napolitana.jpg" alt="Image 8" id="image-8">
+              </div>
+              <div class="slide">
+                <img src="square-outdoor.jpg" alt="Image 9" id="image-9">
+              </div>
+              <div class="slide">
+                <img src="squids.jpg" alt="Image 10" id="image-10">
+              </div>
+              <div class="slide">
+                <img src="srdines-outdoor.jpg" alt="Image 12" id="image-12">
+              </div>
+              <div class="slide">
+                <img src="tortelini-parmesan.jpg" alt="Image 13" id="image-13">
+              </div>
+            <a class="prev" onclick="prevSlide()">&#10094;</a>
+            <a class="next" onclick="nextSlide()">&#10095;</a>
+          </div>
+        </div>
     <p id="intro">
         Sperun is a small runn restaurant with authentic Dalmatian and Croatian cuisine. It opened in 2000. and number of satisfied guests are rising by the year.
         Located in the city centre, it offers briliant views of vibrant Sperun square while offering privacy from Riva promanade.
@@ -44,7 +87,23 @@
     <p>10:00 - 24:00</p>
     <p id="working-days">Tuesday - Sunday</p>
 </div>
+<div class="contact-container">
+    <h2>Contact us and make reservation!</h2>
+    <div class="mobile-number">
+    <i class="fa-solid fa-phone"></i>
+    <a href="tel:+385915554262">+385915554262</a>
+    </div>
+    <div class="telephone-number">
+        <i class="fa-solid fa-phone"></i>
+        <a href="tel:+38521346999">+38521346999</a>
+    </div>
+    <div class="email-contact">
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:mail">mail</a>
+    </div>
+    <p>We highly recommend reserving in dinner hours.</p>
+</div>
 </main>
-<footer>@RokoMartinic product</footer>
+<footer>@RokoMartinić product</footer>
 </body>
 </html>
