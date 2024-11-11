@@ -41,7 +41,7 @@ body{text-align: center;
     align-items: center;
   }.slide {
     position: relative;
-    display: none;
+    display: block;
     width: 750px;
     height: 500px;
     display: flex;
@@ -73,16 +73,17 @@ body{text-align: center;
   }
   .prev{right:90%;}
 footer{
-    position: absolute;
-    top: 120%;
+    position: fixed;
+    bottom: 0;
     left: 0;
     width: 100%;
 }
 header{
-    position: sticky;
+    position: fixed;
     z-index: 1;
     top:0;
-    width: 100%;
+    left: 0;
+    right: 0;
 }
 img{
     max-width:750px;
@@ -94,6 +95,8 @@ img{
     
 }
 main{
+    position: relative;
+    top: 125px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -101,4 +104,15 @@ main{
 .mobile-number, .telephone-number, .email-contact{
     color: #00573F;
     padding:10px;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.lokacija, .vrijeme, .contact-container{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
