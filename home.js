@@ -30,7 +30,11 @@ function chglang(data){
       for (i = 0; i < slides.length; i++) {
         slides[i].style.display = "none";
       }
-      slides[slideIndex-1].style.display = "block";
+      slides[slideIndex-1].style.display = "flex";
+      slides[slideIndex-1].style.justifyContent="center";
+      slides[slideIndex-1].style.alignItems="center";
+
+        
     }function prevSlide() {
       plusSlide(-1);
     }function nextSlide() {

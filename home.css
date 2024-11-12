@@ -27,26 +27,25 @@ main>p,.lokacija,.vrijeme, .contact-container>p{
     color: #00573F;
     width: 750px;
 }
-body{text-align: center;
+body{
+    text-align: center;
     max-width: 99%;
     max-height: 100%;
 }
+img{
+    max-width:750px;
+    max-height: 500px;
+}
+
 .slideshow-container {
     position: relative;
     max-width: 750px;
     width: 100%;
     height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }.slide {
-    position: relative;
-    display: block;
+    display: none;
     width: 750px;
     height: 500px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }.prev, .next {
     position: absolute;
     top: 250px;
@@ -85,10 +84,7 @@ header{
     left: 0;
     right: 0;
 }
-img{
-    max-width:750px;
-    max-height: 500px;
-}
+
 #langselect{
     color: #004526;
     background-color: cornsilk;
@@ -114,5 +110,10 @@ main{
     width: 600px;
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+#first-slide{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
