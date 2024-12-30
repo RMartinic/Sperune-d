@@ -7,21 +7,38 @@ body{
 header, footer{
     background-color: #004526;
     color:cornsilk;
+    font-size: 0.9em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 h1{
 
     color: cornsilk;
     font-family: 'Brush Script MT', cursive;
-    font-size: xx-large;
+    font-size:3.5em;
 }
 h2{
     color: #00573F;
     font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-button{
+button, #langselect{
     background-color: cornsilk;
     color: #004526;
     cursor: pointer;
+    border-radius: 4px;
+    width: 90px;
+    height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:0.9em;
+    opacity: 0.75;
+    transition: 0.3s;
+}
+button:hover, #langselect:hover{
+    opacity: 1;
 }
 main>p,.lokacija,.vrijeme, .contact-container>p{
     color: #00573F;
@@ -85,11 +102,6 @@ header{
     right: 0;
 }
 
-#langselect{
-    color: #004526;
-    background-color: cornsilk;
-    
-}
 main{
     position: relative;
     top: 125px;
@@ -117,3 +129,4 @@ main{
     justify-content: center;
     align-items: center;
 }
+#recommend-text{max-width: 550px;}
