@@ -83,6 +83,22 @@ padding:0px 30px 0px 30px;
 background-color: #004526;
 border-radius: 4px;
 }
-.cold-appetizers .cold-appetizers-toggle .warm-appetizers .warm-appetizers-toggle .salads .salads-toggle .pasta .pasta-toggle .risottos .risottos-toggle .fish-meals .fish-meals-toggle .meat-meals .meat-meals-toggle .desserts .desserts-toggle .side-dishes .side-dishes-toggle .hot-bevereges .hot-bevereges-toggle .nonalcholic-drinks .nonalcholic-drinks-toggle .beers .beers-toggle .winelist .winelist-toggle .hard-drinks .hard-drinsk-toggle .cocktails .cocktails-toggle::before{
-    content: "+";
+.menu-dropdown{
+    background-color: grey;
+    width:200px;
+    height: 25px;
+}
+.menu-option{
+    position: relative;
+    width:200px;
+    height: 25px;
+    background-color: #004526;
+}
+.menu-option::before{
+    content: "ˇ";
+    font-size: x-large;
+    position: absolute;
+    right: 0px;
+    top: 2px;
+    color:cornsilk;
 }
