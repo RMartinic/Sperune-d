@@ -1,0 +1,157 @@
+body{
+    background-image: url('../photos/background-main.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header, footer{
+    background-color: #004526;
+    color:cornsilk;
+    font-size: 0.9em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+p{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+#intro{
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+    border: solid 3px #004526;
+}
+h1{
+
+    color: cornsilk;
+    font-family: 'Brush Script MT', cursive;
+    font-size:3.5em;
+}
+h2{
+    color: #00573F;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    padding: 20px;
+    border-radius: 4px;
+}
+button, #langselect{
+    background-color: cornsilk;
+    color: #004526;
+    cursor: pointer;
+    border-radius: 4px;
+    width: 90px;
+    height: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:0.9em;
+    opacity: 0.75;
+    transition: 0.3s;
+}
+button:hover, #langselect:hover{
+    opacity: 1;
+}
+main>p,.lokacija,.vrijeme, .contact-container>p{
+    color: #00573F;
+    width: 750px;
+}
+body{
+    text-align: center;
+    max-width: 99%;
+    max-height: 100%;
+}
+img{
+    max-width:750px;
+    max-height: 500px;
+}
+
+.slideshow-container {
+    position: relative;
+    top:20px;
+    max-width: 750px;
+    width: 100%;
+    height: 500px;
+    background-color: white;
+    border-radius:4px;
+    border: solid 3px #004526 ;
+    margin: 10px;
+  }.slide {
+    display: none;
+    width: 750px;
+    height: 500px;
+  }.prev, .next {
+    position: absolute;
+    top: 250px;
+    transform: translateY(-50%);
+    width: 20px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    transition: 0.6s ease;
+    border-radius: 35%;
+    cursor: pointer;
+    height: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    opacity: 0.6;
+
+  }.next {
+    left:90%;
+    color: white;
+    
+  }
+  .prev{right:90%;}
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}
+header{
+    position: fixed;
+    z-index: 1;
+    top:0;
+    left: 0;
+    right: 0;
+}
+
+main{
+    position: relative;
+    top: 125px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mobile-number, .telephone-number, .email-contact{
+    color: #00573F;
+    padding:10px;
+}
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+    border: solid 3px #004526;
+}
+.lokacija, .vrijeme, .contact-container{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    padding: 10px;
+    border-radius: 4px;
+}
+#first-slide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#recommend-text{max-width: 550px;}

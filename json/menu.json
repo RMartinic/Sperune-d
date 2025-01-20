@@ -1,0 +1,874 @@
+[
+    {
+        "name": {
+            "eng": "Dalmatian ham and Livno cow cheese platter",
+            "hrv": "Dalmatinski pršut i sir Livanjac plata",
+            "fra": "Jambon dalmate et plateau de fromage de vache Livno",
+            "ita": "Prosciutto dalmata e piatto di formaggio Livno",
+            "deu": "Dalmatinischer Schinken und Livno Kuhkäseplatte",
+            "spa": "Jamón dálmata y plato de queso de vaca Livno",
+            "por": "Presunto dálmata e prato de queijo de vaca Livno",
+            "cha": "达尔马提亚火腿和利夫诺奶酪拼盘",
+            "jap": "ダルマチアハムとリブノ牛チーズプレート"
+        },
+        "type": "food",
+        "course": "cold-appetizers",
+        "price": 20,
+        "picture": "./photos/prsut-sir-plata.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Octopus salad",
+            "hrv": "Salata od hobotnice",
+            "fra": "Salade de poulpe",
+            "ita": "Insalata di polpo",
+            "deu": "Oktopussalat",
+            "spa": "Ensalada de pulpo",
+            "por": "Salada de polvo",
+            "cha": "章鱼沙拉",
+            "jap": "タコのサラダ"
+        },
+        "type": "food",
+        "course": "cold-appetizers",
+        "price": 15,
+        "picture": "./photos/salata-hobotnica.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Dalmatian cheese Capri style",
+            "hrv": "Dalmatinski sir u stilu Capri",
+            "fra": "Fromage dalmate à la Capri",
+            "ita": "Formaggio dalmata stile Capri",
+            "deu": "Dalmatinischer Käse Capri-Stil",
+            "spa": "Queso dálmata estilo Capri",
+            "por": "Queijo dálmata estilo Capri",
+            "cha": "达尔马提亚奶酪卡普里风格",
+            "jap": "ダルマチアチーズ カプリスタイル"
+        },
+        "type": "food",
+        "course": "cold-appetizers",
+        "price": 10,
+        "picture": "./photos/capri-sir.jpg",
+        "vegetarian": true
+    },
+    {
+        "name": {
+            "eng": "Clear fish soup",
+            "hrv": "Bistra riblja juha",
+            "fra": "Soupe de poisson claire",
+            "ita": "Zuppa di pesce chiara",
+            "deu": "Klare Fischsuppe",
+            "spa": "Sopa de pescado clara",
+            "por": "Sopa de peixe clara",
+            "cha": "清鱼汤",
+            "jap": "クリア魚スープ"
+        },
+        "type": "food",
+        "course": "warm-appetizers",
+        "price": 5,
+        "picture": "./photos/riblja-juha.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Toasted bread with salted sardines",
+            "hrv": "Prepečeni kruh sa slanim srdelama",
+            "fra": "Pain grillé avec sardines salées",
+            "ita": "Pane tostato con sardine salate",
+            "deu": "Geröstetes Brot mit gesalzenen Sardinen",
+            "spa": "Pan tostado con sardinas saladas",
+            "por": "Pão torrado com sardinhas salgadas",
+            "cha": "咸沙丁鱼烤面包",
+            "jap": "塩漬けイワシのトースト"
+        },
+        "type": "food",
+        "course": "warm-appetizers",
+        "price": 7,
+        "picture": "./photos/brus-srdele.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Muscles",
+            "hrv": "Dagnje",
+            "fra": "Moules",
+            "ita": "Cozze",
+            "deu": "Muscheln",
+            "spa": "Mejillones",
+            "por": "Mexilhões",
+            "cha": "青口贝",
+            "jap": "ムール貝"
+        },
+        "type": "food",
+        "course": "warm-appetizers",
+        "price": 12,
+        "picture": "./photos/dagnje.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Tuna salad",
+            "hrv": "Salata od tune",
+            "fra": "Salade de thon",
+            "ita": "Insalata di tonno",
+            "deu": "Thunfischsalat",
+            "spa": "Ensalada de atún",
+            "por": "Salada de atum",
+            "cha": "金枪鱼沙拉",
+            "jap": "ツナサラダ"
+        },
+        "type": "food",
+        "course": "salads",
+        "price": 13,
+        "picture": "./photos/tuna-salata.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "White baits",
+            "hrv": "Gavuni",
+            "fra": "Petits poissons blancs",
+            "ita": "Pesciolini bianchi",
+            "deu": "Weißfische",
+            "spa": "Pescaditos blancos",
+            "por": "Peixinhos brancos",
+            "cha": "小白鱼",
+            "jap": "ホワイトベイト"
+        },
+        "type": "food",
+        "course": "fish-meals",
+        "price": 13,
+        "picture": "./photos/gavuni.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Sardines",
+            "hrv": "Srdela",
+            "fra": "Sardines",
+            "ita": "Sardine",
+            "deu": "Sardinen",
+            "spa": "Sardinas",
+            "por": "Sardinhas",
+            "cha": "沙丁鱼",
+            "jap": "イワシ"
+        },
+        "type": "food",
+        "course": "fish-meals",
+        "price": 12,
+        "picture": "./photos/srdines-outdoor.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Fresh grilled squids",
+            "hrv": "Svježe lignje na žaru",
+            "fra": "Calamars grillés frais",
+            "ita": "Calamari freschi alla griglia",
+            "deu": "Frisch gegrillte Tintenfische",
+            "spa": "Calamares frescos a la parrilla",
+            "por": "Lulas frescas grelhadas",
+            "cha": "新鲜烤鱿鱼",
+            "jap": "新鮮なイカのグリル"
+        },
+        "type": "food",
+        "course": "fish-meals",
+        "price": 22,
+        "picture": "./photos/grilled-squids.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Scampi in buzara sauce",
+            "hrv": "Škampi na buzaru",
+            "fra": "Scampi à la sauce buzara",
+            "ita": "Scampi in salsa buzara",
+            "deu": "Scampi in Buzara-Sauce",
+            "spa": "Cigalas en salsa buzara",
+            "por": "Camarões em molho buzara",
+            "cha": "布扎拉酱大虾",
+            "jap": "ブザラソースのスカンピ"
+        },
+        "type": "food",
+        "course": "fish-meals",
+        "price": 19,
+        "picture": "./photos/skampi-buzara.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Grilled seabass",
+            "hrv": "Brancin na žaru",
+            "fra": "Bar grillé",
+            "ita": "Branzino alla griglia",
+            "deu": "Gegrillter Seebarsch",
+            "spa": "Lubina a la parrilla",
+            "por": "Robalo grelhado",
+            "cha": "烤鲈鱼",
+            "jap": "グリルしたスズキ"
+        },
+        "type": "food",
+        "course": "fish-meals",
+        "price": 19,
+        "picture": "./photos/lubin.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Tuna steak with capari",
+            "hrv": "Odrezak od tune s kaparima",
+            "fra": "Steak de thon aux câpres",
+            "ita": "Bistecca di tonno con capperi",
+            "deu": "Thunfischsteak mit Kapern",
+            "spa": "Filete de atún con alcaparras",
+            "por": "Bife de atum com alcaparras",
+            "cha": "配酸豆的金枪鱼牛排",
+            "jap": "ケッパー添えのマグロステーキ"
+        },
+        "type": "food",
+        "course": "fish-meals",
+        "price": 17,
+        "picture": "./photos/tuna-steak.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Seabream fillet",
+            "hrv": "Filet orade",
+            "fra": "Filet de dorade",
+            "ita": "Filetto di orata",
+            "deu": "Doradenfilet",
+            "spa": "Filete de dorada",
+            "por": "Filé de dourada",
+            "cha": "鲷鱼片",
+            "jap": "鯛のフィレ"
+        },
+        "type": "food",
+        "course": "fish-meals",
+        "price": 21,
+        "picture": "./photos/orada.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Cuttlefish (black) risotto",
+            "hrv": "Crni rižot od sipe",
+            "fra": "Risotto noir à l'encre de seiche",
+            "ita": "Risotto nero al nero di seppia",
+            "deu": "Schwarzer Tintenfisch-Risotto",
+            "spa": "Risotto negro de sepia",
+            "por": "Risoto negro de choco",
+            "cha": "墨鱼黑烩饭",
+            "jap": "イカ墨リゾット"
+        },
+        "type": "food",
+        "course": "risottos",
+        "price": 16,
+        "picture": "./photos/crni-rizot.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Spaghetti bolognese",
+            "hrv": "Špageti bolonjez",
+            "fra": "Spaghetti bolognaise",
+            "ita": "Spaghetti alla bolognese",
+            "deu": "Spaghetti Bolognese",
+            "spa": "Espaguetis boloñesa",
+            "por": "Espaguete à bolonhesa",
+            "cha": "意大利肉酱面",
+            "jap": "スパゲッティボロネーゼ"
+        },
+        "type": "food",
+        "course": "pasta",
+        "price": 14,
+        "picture": "./photos/spaghetti-bolognese.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Spaghetti napolitana",
+            "hrv": "Špageti napolitana",
+            "fra": "Spaghetti napolitaine",
+            "ita": "Spaghetti alla napoletana",
+            "deu": "Spaghetti Napolitana",
+            "spa": "Espaguetis napolitana",
+            "por": "Espaguete à napolitana",
+            "cha": "那不勒斯意大利面",
+            "jap": "スパゲッティナポリターナ"
+        },
+        "type": "food",
+        "course": "pasta",
+        "price": 12,
+        "picture": "./photos/spaghetti-napolitana.jpg",
+        "vegetarian": true
+    },
+    {
+        "name": {
+            "eng": "Tortellini with cream and parmesan cheese",
+            "hrv": "Tortelini s vrhnjem i parmezanom",
+            "fra": "Tortellini à la crème et au parmesan",
+            "ita": "Tortellini con panna e parmigiano",
+            "deu": "Tortellini mit Sahne und Parmesan",
+            "spa": "Tortellini con crema y queso parmesano",
+            "por": "Tortellini com creme e queijo parmesão",
+            "cha": "奶油帕尔马干酪饺子",
+            "jap": "クリームとパルメザンチーズのトルテリーニ"
+        },
+        "type": "food",
+        "course": "pasta",
+        "price": 15,
+        "picture": "./photos/tortelini-parmesan.jpg",
+        "vegetarian": true
+    },
+    {
+        "name": {
+            "eng": "Sirloin steak",
+            "hrv": "Biftek",
+            "fra": "Steak de filet",
+            "ita": "Bistecca di controfiletto",
+            "deu": "Rinderfiletsteak",
+            "spa": "Filete de solomillo",
+            "por": "Bife de contrafilé",
+            "cha": "牛里脊牛排",
+            "jap": "サーロインステーキ"
+        },
+        "type": "food",
+        "course": "meat-meals",
+        "price": 24,
+        "picture": "./photos/sirloin-steak.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Veal steak in prosek sauce",
+            "hrv": "Teleći odrezak u umaku od prošeka",
+            "fra": "Steak de veau à la sauce Prosek",
+            "ita": "Bistecca di vitello in salsa Prosek",
+            "deu": "Kalbssteak in Prosek-Sauce",
+            "spa": "Filete de ternera con salsa de Prosek",
+            "por": "Bife de vitela ao molho Prosek",
+            "cha": "普罗赛克酱小牛排",
+            "jap": "プロセックソースの子牛ステーキ"
+        },
+        "type": "food",
+        "course": "meat-meals",
+        "price": 17,
+        "picture": "./photos/veal-steak.jpg",
+        "vegetarian": false
+    },
+    {
+        "name": {
+            "eng": "Cheesecake",
+            "hrv": "Torta od sira",
+            "fra": "Gâteau au fromage",
+            "ita": "Torta di formaggio",
+            "deu": "Käsekuchen",
+            "spa": "Tarta de queso",
+            "por": "Torta de queijo",
+            "cha": "芝士蛋糕",
+            "jap": "チーズケーキ"
+        },
+        "type": "food",
+        "course": "desserts",
+        "price": 5,
+        "picture": "./photos/cheesecake.jpg",
+        "vegetarian": true
+    },
+    {
+        "name": {
+            "eng": "Natural water",
+            "hrv": "Prirodna voda",
+            "fra": "Eau naturelle",
+            "ita": "Acqua naturale",
+            "deu": "Natürliches Wasser",
+            "spa": "Agua natural",
+            "por": "Água natural",
+            "cha": "天然水",
+            "jap": "ナチュラルウォーター"
+        },
+        "type": "drink",
+        "course": "nonalcoholic-drinks",
+        "price": 4,
+        "picture": "./photos/jana.jpg"
+    },
+    {
+        "name": {
+            "eng": "Sparkling water",
+            "hrv": "Gazirana voda",
+            "fra": "Eau gazeuse",
+            "ita": "Acqua frizzante",
+            "deu": "Sprudelwasser",
+            "spa": "Agua con gas",
+            "por": "Água com gás",
+            "cha": "气泡水",
+            "jap": "スパークリングウォーター"
+        },
+        "type": "drink",
+        "course": "nonalcoholic-drinks",
+        "price": 4,
+        "picture": "./photos/jamnica.jpg"
+    },
+    {
+        "name": {
+            "eng": "Coca Cola",
+            "hrv": "Coca Cola",
+            "fra": "Coca Cola",
+            "ita": "Coca Cola",
+            "deu": "Coca Cola",
+            "spa": "Coca Cola",
+            "por": "Coca Cola",
+            "cha": "可口可乐",
+            "jap": "コカ・コーラ"
+        },
+        "type": "drink",
+        "course": "nonalcoholic-drinks",
+        "price": 2.7,
+        "picture": "./photos/coca-cola.jpg"
+    },
+    {
+        "name": {
+            "eng": "Coca Cola Zero",
+            "hrv": "Coca Cola Zero",
+            "fra": "Coca Cola Zero",
+            "ita": "Coca Cola Zero",
+            "deu": "Coca Cola Zero",
+            "spa": "Coca Cola Zero",
+            "por": "Coca Cola Zero",
+            "cha": "零度可口可乐",
+            "jap": "コカ・コーラゼロ"
+        },
+        "type": "drink",
+        "course": "nonalcoholic-drinks",
+        "price": 2.7,
+        "picture": "./photos/coca-cola-zero.jpg"
+    },
+    {
+        "name": {
+            "eng": "Sprite",
+            "hrv": "Sprite",
+            "fra": "Sprite",
+            "ita": "Sprite",
+            "deu": "Sprite",
+            "spa": "Sprite",
+            "por": "Sprite",
+            "cha": "雪碧",
+            "jap": "スプライト"
+        },
+        "type": "drink",
+        "course": "nonalcoholic-drinks",
+        "price": 2.7,
+        "picture": "./photos/sprite.jpg"
+    },
+    {
+        "name": {
+            "eng": "Fanta",
+            "hrv": "Fanta",
+            "fra": "Fanta",
+            "ita": "Fanta",
+            "deu": "Fanta",
+            "spa": "Fanta",
+            "por": "Fanta",
+            "cha": "芬达",
+            "jap": "ファンタ"
+        },
+        "type": "drink",
+        "course": "nonalcoholic-drinks",
+        "price": 2.7,
+        "picture": "./photos/fanta.jpg"
+    },
+    {
+        "name": {
+            "eng": "Espresso",
+            "hrv": "Espresso",
+            "fra": "Expresso",
+            "ita": "Espresso",
+            "deu": "Espresso",
+            "spa": "Espresso",
+            "por": "Expresso",
+            "cha": "浓缩咖啡",
+            "jap": "エスプレッソ"
+        },
+        "type": "drink",
+        "course": "hot-beverages",
+        "price": 1.6,
+        "picture": "./photos/espresso.jpg"
+    },
+    {
+        "name": {
+            "eng": "Coffee with milk",
+            "hrv": "Kava s mlijekom",
+            "fra": "Café au lait",
+            "ita": "Caffè con latte",
+            "deu": "Kaffee mit Milch",
+            "spa": "Café con leche",
+            "por": "Café com leite",
+            "cha": "牛奶咖啡",
+            "jap": "ミルク入りコーヒー"
+        },
+        "type": "drink",
+        "course": "hot-beverages",
+        "price": 1.9,
+        "picture": "./photos/coffee-milk.jpg"
+    },
+    {
+        "name": {
+            "eng": "White coffee",
+            "hrv": "Bijela kava",
+            "fra": "Café blanc",
+            "ita": "Caffè bianco",
+            "deu": "Weiße Kaffee",
+            "spa": "Café blanco",
+            "por": "Café branco",
+            "cha": "白咖啡",
+            "jap": "ホワイトコーヒー"
+        },
+        "type": "drink",
+        "course": "hot-beverages",
+        "price": 2,
+        "picture": "./photos/white-coffee.jpg"
+    },
+    {
+        "name": {
+            "eng": "Cappuccino",
+            "hrv": "Cappuccino",
+            "fra": "Cappuccino",
+            "ita": "Cappuccino",
+            "deu": "Cappuccino",
+            "spa": "Cappuccino",
+            "por": "Cappuccino",
+            "cha": "卡布奇诺",
+            "jap": "カプチーノ"
+        },
+        "type": "drink",
+        "course": "hot-beverages",
+        "price": 2,
+        "picture": "./photos/cappuccino.jpg"
+    },
+    {
+        "name": {
+            "eng": "Tea",
+            "hrv": "Čaj",
+            "fra": "Thé",
+            "ita": "Tè",
+            "deu": "Tee",
+            "spa": "Té",
+            "por": "Chá",
+            "cha": "茶",
+            "jap": "お茶"
+        },
+        "type": "drink",
+        "course": "hot-beverages",
+        "price": 2,
+        "picture": "./photos/tea.png"
+    },
+    {
+        "name": {
+            "eng": "Draft beer 0.3 (Karlovačko)",
+            "hrv": "Točeno pivo 0.3 (Karlovačko)",
+            "fra": "Bière pression 0.3 (Karlovačko)",
+            "ita": "Birra alla spina 0,3 (Karlovačko)",
+            "deu": "Fassbier 0,3 (Karlovačko)",
+            "spa": "Cerveza de barril 0,3 (Karlovačko)",
+            "por": "Cerveja de barril 0,3 (Karlovačko)",
+            "cha": "生啤酒0.3（Karlovačko）",
+            "jap": "ドラフトビール0.3（Karlovačko）"
+        },
+        "type": "drink",
+        "course": "beers",
+        "price": 3.5,
+        "picture": "./photos/karlovacko.jpg"
+    },
+    {
+        "name": {
+            "eng": "Draft beer 0.5 (Karlovačko)",
+            "hrv": "Točeno pivo 0.5 (Karlovačko)",
+            "fra": "Bière pression 0.5 (Karlovačko)",
+            "ita": "Birra alla spina 0.5 (Karlovačko)",
+            "deu": "Fassbier 0.5 (Karlovačko)",
+            "spa": "Cerveza de barril 0.5 (Karlovačko)",
+            "por": "Cerveja de barril 0.5 (Karlovačko)",
+            "cha": "生啤酒0.5（Karlovačko）",
+            "jap": "ドラフトビール0.5（Karlovačko）"
+        },
+        "type": "drink",
+        "course": "beers",
+        "price": 4.5,
+        "picture": "./photos/karlovacko.jpg"
+    },
+    {
+        "name": {
+            "eng": "Karlovačko 0.33",
+            "hrv": "Karlovačko 0.33",
+            "fra": "Karlovačko 0.33",
+            "ita": "Karlovačko 0.33",
+            "deu": "Karlovačko 0.33",
+            "spa": "Karlovačko 0.33",
+            "por": "Karlovačko 0.33",
+            "cha": "Karlovačko 0.33",
+            "jap": "カルロヴァツコ0.33"
+        },
+        "type": "drink",
+        "course": "beers",
+        "price": 3.5,
+        "picture": "./photos/karlovacko-bottle.jpg"
+    },
+    {
+        "name": {
+            "eng": "Heineken 0.33",
+            "hrv": "Heineken 0.33",
+            "fra": "Heineken 0.33",
+            "ita": "Heineken 0.33",
+            "deu": "Heineken 0.33",
+            "spa": "Heineken 0.33",
+            "por": "Heineken 0.33",
+            "cha": "海尼根0.33",
+            "jap": "ハイネケン0.33"
+        },
+        "type": "drink",
+        "course": "beers",
+        "price": 3.5,
+        "picture": "./photos/heineken.jpg"
+    },
+    {
+        "name": {
+            "eng": "Heineken 0.0",
+            "hrv": "Heineken 0.0",
+            "fra": "Heineken 0.0",
+            "ita": "Heineken 0.0",
+            "deu": "Heineken 0.0",
+            "spa": "Heineken 0.0",
+            "por": "Heineken 0.0",
+            "cha": "海尼根0.0",
+            "jap": "ハイネケン0.0"
+        },
+        "type": "drink",
+        "course": "beers",
+        "price": 3.5,
+        "picture": "./photos/heineken0.jpg"
+    },
+    {
+        "name": {
+            "eng": "Karlovačko Radler",
+            "hrv": "Karlovačko Radler",
+            "fra": "Karlovačko Radler",
+            "ita": "Karlovačko Radler",
+            "deu": "Karlovačko Radler",
+            "spa": "Karlovačko Radler",
+            "por": "Karlovačko Radler",
+            "cha": "Karlovačko Radler",
+            "jap": "カルロヴァツコ・ラドラー"
+        },
+        "type": "drink",
+        "course": "beers",
+        "price": 4.5,
+        "picture": "./photos/karlovacko-radler.jpg"
+    },
+    {
+        "name": {
+            "eng": "Pošip Miličić",
+            "hrv": "Pošip Miličić",
+            "fra": "Pošip Miličić",
+            "ita": "Pošip Miličić",
+            "deu": "Pošip Miličić",
+            "spa": "Pošip Miličić",
+            "por": "Pošip Miličić",
+            "cha": "Pošip Miličić",
+            "jap": "ポシプ・ミリチッチ"
+        },
+        "type": "drink",
+        "course": "winelist",
+        "price": 18,
+        "picture": "./photos/posip-milicic.jpg"
+    },
+    {
+        "name": {
+            "eng": "Plavac Mali",
+            "hrv": "Plavac Mali",
+            "fra": "Plavac Mali",
+            "ita": "Plavac Mali",
+            "deu": "Plavac Mali",
+            "spa": "Plavac Mali",
+            "por": "Plavac Mali",
+            "cha": "普拉瓦茨·马利",
+            "jap": "プラヴァツ・マリ"
+        },
+        "type": "drink",
+        "course": "winelist",
+        "price": 18,
+        "picture": "./photos/plavac-kuna.jpg"
+    },
+    {
+        "name": {
+            "eng": "Pošip Čara",
+            "hrv": "Pošip Čara",
+            "fra": "Pošip Čara",
+            "ita": "Pošip Čara",
+            "deu": "Pošip Čara",
+            "spa": "Pošip Čara",
+            "por": "Pošip Čara",
+            "cha": "Pošip Čara",
+            "jap": "ポシプ・チャラ"
+        },
+        "type": "drink",
+        "course": "winelist",
+        "price": 27,
+        "picture": "./photos/posip-cara.jpg"
+    },
+    {
+        "name": {
+            "eng": "Korčulanka",
+            "hrv": "Korčulanka",
+            "fra": "Korčulanka",
+            "ita": "Korčulanka",
+            "deu": "Korčulanka",
+            "spa": "Korčulanka",
+            "por": "Korčulanka",
+            "cha": "Korčulanka",
+            "jap": "コルチュランカ"
+        },
+        "type": "drink",
+        "course": "winelist",
+        "price": 20,
+        "picture": "./photos/korculanka.png"
+    },
+    {
+        "name": {
+            "eng": "Chardonnay Kos",
+            "hrv": "Chardonnay Kos",
+            "fra": "Chardonnay Kos",
+            "ita": "Chardonnay Kos",
+            "deu": "Chardonnay Kos",
+            "spa": "Chardonnay Kos",
+            "por": "Chardonnay Kos",
+            "cha": "Chardonnay Kos",
+            "jap": "シャルドネ・コス"
+        },
+        "type": "drink",
+        "course": "winelist",
+        "price": 23,
+        "picture": "./photos/chardonnay-kos.jpg"
+    },
+    {
+        "name": {
+            "eng": "Rose Miličić",
+            "hrv": "Rose Miličić",
+            "fra": "Rose Miličić",
+            "ita": "Rose Miličić",
+            "deu": "Rose Miličić",
+            "spa": "Rose Miličić",
+            "por": "Rose Miličić",
+            "cha": "Rose Miličić",
+            "jap": "ロゼ・ミリチッチ"
+        },
+        "type": "drink",
+        "course": "winelist",
+        "price": 23,
+        "picture": "./photos/rose-milicic.jpg"
+    },
+    {
+        "name": {
+            "eng": "Zlatan Plavac",
+            "hrv": "Zlatan Plavac",
+            "fra": "Zlatan Plavac",
+            "ita": "Zlatan Plavac",
+            "deu": "Zlatan Plavac",
+            "spa": "Zlatan Plavac",
+            "por": "Zlatan Plavac",
+            "cha": "兹拉坦·普拉瓦茨",
+            "jap": "ズラタン・プラヴァツ"
+        },
+        "type": "drink",
+        "course": "winelist",
+        "price": 27,
+        "picture": "./photos/zlatan-plavac.jpg"
+    },
+    {
+        "name": {
+            "eng": "Homemade liquors",
+            "hrv": "Domaći likeri",
+            "fra": "Liqueurs faits maison",
+            "ita": "Liquori fatti in casa",
+            "deu": "Hausgemachte Liköre",
+            "spa": "Licores caseros",
+            "por": "Licores caseiros",
+            "cha": "自制酒",
+            "jap": "自家製リキュール"
+        },
+        "type": "drink",
+        "course": "hard-drinks",
+        "price": 3,
+        "picture": "./photos/rakija.jpg"
+    },
+    {
+        "name": {
+            "eng": "Travarica",
+            "hrv": "Travarica",
+            "fra": "Travarica",
+            "ita": "Travarica",
+            "deu": "Travarica",
+            "spa": "Travarica",
+            "por": "Travarica",
+            "cha": "特拉瓦里察",
+            "jap": "トラヴァリツァ"
+        },
+        "type": "drink",
+        "course": "hard-drinks",
+        "price": 3,
+        "picture": "./photos/travarica.jpg"
+    },
+    {
+        "name": {
+            "eng": "Lozovača",
+            "hrv": "Lozovača",
+            "fra": "Lozovača",
+            "ita": "Lozovača",
+            "deu": "Lozovača",
+            "spa": "Lozovača",
+            "por": "Lozovača",
+            "cha": "洛佐瓦察",
+            "jap": "ロゾヴァツァ"
+        },
+        "type": "drink",
+        "course": "hard-drinks",
+        "price": 3,
+        "picture": "./photos/lozovaca.jpg"
+    },
+    {
+        "name": {
+            "eng": "Orahovac",
+            "hrv": "Orahovac",
+            "fra": "Orahovac",
+            "ita": "Orahovac",
+            "deu": "Orahovac",
+            "spa": "Orahovac",
+            "por": "Orahovac",
+            "cha": "奥拉霍瓦茨",
+            "jap": "オラホヴァツ"
+        },
+        "type": "drink",
+        "course": "hard-drinks",
+        "price": 3,
+        "picture": "./photos/orahovac.jpg"
+    },
+    {
+        "name": {
+            "eng": "Pelinkovac Antique",
+            "hrv": "Pelinkovac Antique",
+            "fra": "Pelinkovac Antique",
+            "ita": "Pelinkovac Antique",
+            "deu": "Pelinkovac Antique",
+            "spa": "Pelinkovac Antique",
+            "por": "Pelinkovac Antique",
+            "cha": "佩林科瓦茨·安提克",
+            "jap": "ペリンクオヴァツ・アンティーク"
+        },
+        "type": "drink",
+        "course": "hard-drinks",
+        "price": 4,
+        "picture": "./photos/pelinkovac.jpg"
+    }
+
+]

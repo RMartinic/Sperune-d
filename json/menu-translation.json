@@ -1,0 +1,189 @@
+[
+      {
+        "eng":"Food",
+        "hrv":"Jela",
+        "fra":"Nourriture",
+        "ita":"Cibo",
+        "deu":"Essen",
+        "spa":"Alimento",
+        "por":"Comida",
+        "cha":"食物",
+        "jap":"食べ物"
+      },
+      {
+        "eng": "Cold appetizers",
+        "hrv": "Hladna predjela",
+        "fra": "Entrées froides",
+        "ita": "Antipasti freddi",
+        "deu": "Kalte Vorspeisen",
+        "spa": "Entrantes fríos",
+        "por": "Entradas frias",
+        "cha": "冷开胃菜",
+        "jap": "冷たい前菜"
+      },
+      {
+        "eng": "Warm appetizers",
+        "hrv": "Topla predjela",
+        "fra": "Entrées chaudes",
+        "ita": "Antipasti caldi",
+        "deu": "Warme Vorspeisen",
+        "spa": "Entrantes calientes",
+        "por": "Entradas quentes",
+        "cha": "热开胃菜",
+        "jap": "温かい前菜"
+      },
+      {
+        "eng": "Salads",
+        "hrv": "Salate",
+        "fra": "Salades",
+        "ita": "Insalate",
+        "deu": "Salate",
+        "spa": "Ensaladas",
+        "por": "Saladas",
+        "cha": "沙拉",
+        "jap": "サラダ"
+      },
+      {
+        "eng": "Pasta",
+        "hrv": "Tjestenina",
+        "fra": "Pâtes",
+        "ita": "Pasta",
+        "deu": "Pasta",
+        "spa": "Pasta",
+        "por": "Massa",
+        "cha": "意大利面",
+        "jap": "パスタ"
+      },
+      {
+        "eng": "Risottos",
+        "hrv": "Rižot",
+        "fra": "Risottos",
+        "ita": "Risotti",
+        "deu": "Risottos",
+        "spa": "Risottos",
+        "por": "Risottos",
+        "cha": "烩饭",
+        "jap": "リゾット"
+      },
+      {
+        "eng": "Fish meals",
+        "hrv": "Riblja jela",
+        "fra": "Plats de poisson",
+        "ita": "Piatti di pesce",
+        "deu": "Fischgerichte",
+        "spa": "Platos de pescado",
+        "por": "Pratos de peixe",
+        "cha": "鱼类餐点",
+        "jap": "魚料理"
+      },
+      {
+        "eng": "Meat meals",
+        "hrv": "Mesna jela",
+        "fra": "Plats de viande",
+        "ita": "Piatti di carne",
+        "deu": "Fleischgerichte",
+        "spa": "Platos de carne",
+        "por": "Pratos de carne",
+        "cha": "肉类餐点",
+        "jap": "肉料理"
+      },
+      {
+        "eng": "Desserts",
+        "hrv": "Deserti",
+        "fra": "Desserts",
+        "ita": "Dolci",
+        "deu": "Desserts",
+        "spa": "Postres",
+        "por": "Sobremesas",
+        "cha": "甜点",
+        "jap": "デザート"
+      },
+      {
+        "eng": "Side-dishes",
+        "hrv": "Prilozi",
+        "fra": "Accompagnements",
+        "ita": "Contorni",
+        "deu": "Beilagen",
+        "spa": "Guarniciones",
+        "por": "Acompanhamentos",
+        "cha": "配菜",
+        "jap": "付け合わせ"
+      },
+      {
+        "eng":"Drinks",
+        "hrv":"Pica",
+        "fra":"Boissons",
+        "ita":"Bevande",
+        "deu":"Getränke",
+        "spa":"Bebidas",
+        "por":"Bebidas",
+        "cha":"饮料",
+        "jap":"ドリンク"
+      },
+      {
+        "eng": "Hot beverages",
+        "hrv": "Topli napitci",
+        "fra": "Boissons chaudes",
+        "ita": "Bevande calde",
+        "deu": "Heiße Getränke",
+        "spa": "Bebidas calientes",
+        "por": "Bebidas quentes",
+        "cha": "热饮",
+        "jap": "ホットドリンク"
+      },
+      {
+        "eng": "Non-alcoholic drinks",
+        "hrv": "Bezalkoholna pića",
+        "fra": "Boissons non alcoolisées",
+        "ita": "Bevande analcoliche",
+        "deu": "Alkoholfreie Getränke",
+        "spa": "Bebidas sin alcohol",
+        "por": "Bebidas não alcoólicas",
+        "cha": "非酒精饮料",
+        "jap": "ノンアルコール飲料"
+      },
+      {
+        "eng": "Beers",
+        "hrv": "Piva",
+        "fra": "Bières",
+        "ita": "Birre",
+        "deu": "Biere",
+        "spa": "Cervezas",
+        "por": "Cervejas",
+        "cha": "啤酒",
+        "jap": "ビール"
+      },
+      {
+        "eng": "Wine List",
+        "hrv": "Vinska karta",
+        "fra": "Carte des vins",
+        "ita": "Carta dei vini",
+        "deu": "Weinkarte",
+        "spa": "Carta de vinos",
+        "por": "Carta de vinhos",
+        "cha": "酒单",
+        "jap": "ワインリスト"
+      },
+      {
+        "eng": "Hard drinks",
+        "hrv": "Žestoka pića",
+        "fra": "Spiritueux",
+        "ita": "Distillati",
+        "deu": "Spirituosen",
+        "spa": "Bebidas fuertes",
+        "por": "Bebidas destiladas",
+        "cha": "烈酒",
+        "jap": "ハードドリンク"
+      },
+      {
+        "eng": "Cocktails",
+        "hrv": "Kokteli",
+        "fra": "Cocktails",
+        "ita": "Cocktail",
+        "deu": "Cocktails",
+        "spa": "Cócteles",
+        "por": "Coquetéis",
+        "cha": "鸡尾酒",
+        "jap": "カクテル"
+      }
+    ]
