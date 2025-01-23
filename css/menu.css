@@ -168,3 +168,6 @@ img{
     transition: 0s;
     color:cornsilk;
 }
+img{
+    object-fit: contain;
+}
