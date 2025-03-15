@@ -1,0 +1,87 @@
+body {
+  background-image: url("../photos/background-main.jpg");
+}
+
+p {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: cornsilk;
+  font-family: "Brush Script MT", cursive;
+  font-size: 3.5em;
+}
+
+body {
+  text-align: center;
+  max-width: 99%;
+  max-height: 100%;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+main {
+  position: relative;
+  top: 135px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gallery-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 25px;
+  margin: 2rem;
+}
+
+img {
+  width: 550px;
+  height: 450px;
+  margin: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  margin: 1rem;
+  object-fit: contain;
+}
+
+img:hover {
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
+}
+
+.clicked {
+  position: fixed;
+  z-index: 2;
+  transform: scale(1.75);
+  top: 25%;
+  left: 36%;
+}
+
+.clicked:hover {
+  transform: scale(1.75);
+  border: none;
+  box-shadow: none;
+  transition: none;
+  cursor: default;
+}
+
+.blur {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.7;
+}

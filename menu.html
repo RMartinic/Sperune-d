@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/common.css" />
+    <script
+      src="https://kit.fontawesome.com/1ca0ae003b.js"
+      crossorigin="anonymous"
+    ></script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+  </head>
+  <body>
+    <header>
+      <h1>Šperun eat and drink</h1>
+
+      <div id="nav-container">
+        <button onclick="location.href='index.html'" class="nav-button">
+          <i class="fa-solid fa-house"></i>Home
+        </button>
+        <button onclick="location.href='menu.html'" class="nav-button">
+          <i class="fa-solid fa-list"></i>Menu
+        </button>
+        <button onclick="location.href='gallery.html'" class="nav-button">
+          <i class="fa-solid fa-images"></i>Gallery
+        </button>
+
+        <div id="language-select-container">
+          <i class="fa-solid fa-language language-icon"></i>
+          <select
+            name="lang"
+            id="langselect"
+            onchange="chglang(Array)"
+          >
+            <option value="eng">English</option>
+            <option value="hrv">Hrvatski</option>
+            <option value="fra">Français</option>
+            <option value="ita">Italiano</option>
+            <option value="deu">Deutsch</option>
+            <option value="spa">Español</option>
+            <option value="por">Português</option>
+            <option value="cha">中国人</option>
+            <option value="jap">日本語</option>
+          </select>
+        </div>
+      </div>
+      <hr />
+    </header>
+    <main>
+      <div class="food-menu">
+        <h3 class="headline top-headline">Food</h3>
+        <hr />
+        <div class="menu-dropdown" id="cold-appetizers">
+          <div class="menu-option" id="cold-appetizers-toggle">
+            <h2 class="headline">Cold appetizers</h2>
+          </div>
+        </div>
+        <hr />
+        <div class="menu-dropdown" id="warm-appetizers">
+          <div class="menu-option" id="warm-appetizers-toggle">
+            <h2 class="headline">Warm appetizers</h2>
+          </div>
+        </div>
+        <hr />
+        <div class="menu-dropdown" id="salads">
+          <div class="menu-option" id="salads-toggle">
+            <h2 class="headline">Salads</h2>
+          </div>
+        </div>
+        <hr />
+        <div class="menu-dropdown" id="pasta">
+          <div class="menu-option" id="pasta-toggle">
+            <h2 class="headline">Pasta</h2>
+          </div>
+        </div>
+        <hr />
+        <div class="menu-dropdown" id="risottos">
+          <div class="menu-option" id="risottos-toggle">
+            <h2 class="headline">Risottos</h2>
+          </div>
+        </div>
+        <hr />
+        <div class="menu-dropdown" id="fish-meals">
+          <div class="menu-option" id="fish-meals-toggle">
+            <h2 class="headline">Fish meals</h2>
+          </div>
+        </div>
+        <hr />
+        <div class="menu-dropdown" id="meat-meals">
+          <div class="menu-option" id="meat-meals-toggle">
+            <h2 class="headline">Meat meals</h2>
+          </div>
+        </div>
+        <hr />
+        <div class="menu-dropdown" id="desserts">
+          <div class="menu-option" id="desserts-toggle">
+            <h2 class="headline">Desserts</h2>
+          </div>
+        </div>
+        <hr />
+        <div class="menu-dropdown" id="side-dishes">
+          <div class="menu-option" id="side-dishes-toggle">
+            <h2 class="headline">Side dishes</h2>
+          </div>
+        </div>
+        <hr />
+      </div>
+      <div class="drinks-menu">
+        <h3 class="headline top-headline">Drinks</h3>
+        <hr />
+        <div class="menu-dropdown" id="hot-beverages">
+          <div class="menu-option" id="hot-beverages-toggle">
+            <h2 class="headline">Hot bevereges</h2>
+          </div>
+        </div>
+        <hr />
+        <div class="menu-dropdown" id="nonalcoholic-drinks">
+          <div class="menu-option" id="nonalcoholic-drinks-toggle">
+            <h2 class="headline">Non-alcholic drinks</h2>
+          </div>
+        </div>
+        <hr />
+        <div class="menu-dropdown" id="beers">
+          <div class="menu-option" id="beers-toggle">
+            <h2 class="headline">Beers</h2>
+          </div>
+        </div>
+        <hr />
+        <div class="menu-dropdown" id="winelist">
+          <div class="menu-option" id="winelist-toggle">
+            <h2 class="headline">Wine list</h2>
+          </div>
+        </div>
+        <hr />
+        <div class="menu-dropdown" id="hard-drinks">
+          <div class="menu-option" id="hard-drinks">
+            <h2 class="headline">Hard drinks</h2>
+          </div>
+        </div>
+        <hr />
+        <div class="menu-dropdown" id="cocktails">
+          <div class="menu-option" id="cocktails-toggle">
+            <h2 class="headline">Cocktails</h2>
+          </div>
+        </div>
+        <hr />
+      </div>
+    </main>
+  </body>
+  <script src="./js/menu.js"></script>
+</html>

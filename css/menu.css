@@ -1,0 +1,122 @@
+body {
+  background-image: url("../photos/background.jpg");
+}
+
+h1 {
+  color: cornsilk;
+  font-size: 3.5em;
+}
+
+h2 {
+  transition: 0.4s;
+  color: cornsilk;
+  font-size: 1.5em;
+}
+
+h3 {
+  color: cornsilk;
+  font-size: 3.5em;
+}
+
+main {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  margin-top: 10rem;
+}
+
+.food-menu,
+.drinks-menu {
+  padding: 0px 30px 0px 30px;
+  background-color: #004526;
+  border-radius: 4px;
+  margin: 2rem;
+  height: max-content;
+}
+
+.menu-dropdown {
+  width: 700px;
+  height: 25px;
+  transition: 0.5s;
+}
+
+.menu-option {
+  position: relative;
+  background-color: #004526;
+  transition: 0.4s;
+}
+
+.menu-option::before {
+  content: "ˇ";
+  font-size: xx-large;
+  position: absolute;
+  right: 0px;
+  top: 2px;
+  color: cornsilk;
+}
+
+.menu-dropdown.active {
+  height: auto;
+  transition: 0.5s;
+}
+
+.menu-option:hover {
+  cursor: pointer;
+}
+
+.menu-element {
+  background-color: cornsilk;
+  transition: 0.5s;
+  border-radius: 2px;
+  display: flex;
+  margin: 1rem 0;
+  padding: 5px;
+  font-size: 20px;
+  font-family: Tahoma, sans-serif;
+  color: #004526;
+}
+
+.menu-element-picture {
+  width: 400px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+.menu-element-name {
+  font-size: 25px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.menu-element-description {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 1rem 2rem;
+}
+
+.menu-element-price-and-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.headline {
+  transition: 0.4s;
+  color: cornsilk;
+  font-size: 1.5em;
+}
+
+.top-headline {
+  color: cornsilk;
+  font-size: 3.5em;
+  font-family: "Brush Script MT", cursive;
+}
+
+.top-headline:hover {
+  color: cornsilk;
+}
+img{
+  object-fit: contain;
+}

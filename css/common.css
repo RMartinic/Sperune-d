@@ -1,0 +1,62 @@
+body {
+  background-size: cover;
+  background-repeat: repeat-y;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+header {
+  background-color: #004526;
+  color: cornsilk;
+  font-size: 0.9em;
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+header h1 {
+  font-family: "Brush Script MT", cursive;
+}
+
+#nav-container {
+  display: flex;
+  justify-content: center;
+}
+
+.nav-button {
+  background-color: transparent;
+  color: cornsilk;
+  cursor: pointer;
+  text-align: center;
+  font-size: 0.9em;
+  border: none;
+  opacity: 0.6;
+  margin: 0 0.5rem;
+}
+
+header button.nav-button i {
+  margin-right: 5px;
+}
+
+#language-select-container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-left: 2rem;
+  opacity: 0.6;
+}
+
+.nav-button:hover,
+#language-select-container:hover {
+  opacity: 1;
+  outline: none;
+}
+.language-icon{
+  margin-right:15px;
+}

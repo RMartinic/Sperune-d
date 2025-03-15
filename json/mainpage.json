@@ -1,0 +1,47 @@
+[
+    {
+        "eng": "Šperun is a small-run restaurant with authentic Dalmatian and Croatian cuisine. It opened in 2000, and the number of satisfied guests has been rising year by year. Located in the city centre, it offers brilliant views of the vibrant Šperun square while providing privacy from the Riva promenade. Come and dine like all Dalmatians do!",
+        "hrv": "Šperun je mali restoran na istoimenom trgu sa autohtonom i tradicionlnom Dalmatinskom kuhinjom. Otvorio je svoja vrata 2000. godine, te se broj zadovoljnih gostiju od tada samo povećava. Sa lokacijom u centru grada, nudi pritvatnost od Rive, te ugodno okruženje trga Šperun. Dođite i uvjerite se zbog čega se ljudi odlučuju za nas!",
+        "fra": "Šperun est un petit restaurant proposant une authentique cuisine dalmate et croate. Il a ouvert ses portes en 2000, et le nombre de clients satisfaits augmente d'année en année. Situé dans le centre-ville, il offre une vue imprenable sur la place animée de Šperun tout en offrant une certaine intimité depuis la promenade Riva. Venez dîner comme le font tous les Dalmatiens !",
+        "ita": "Šperun è un piccolo ristorante che offre autentica cucina dalmata e croata. Ha aperto i battenti nel 2000, e il numero dei clienti soddisfatti aumenta di anno in anno. Situato nel centro della città, offre viste mozzafiato sulla vivace piazza Šperun garantendo allo stesso tempo un po' di privacy dal lungomare Riva. Vieni a cenare come fanno tutti i dalmati!",
+        "deu": "Šperun ist ein kleines Restaurant, das authentische dalmatinische und kroatische Küche bietet. Es wurde im Jahr 2000 eröffnet, und die Zahl der zufriedenen Kunden steigt von Jahr zu Jahr. Es liegt im Stadtzentrum und bietet einen atemberaubenden Blick auf den belebten Šperun-Platz und gleichzeitig etwas Privatsphäre gegenüber der Riva-Promenade. Kommen Sie und speisen Sie wie alle Dalmatiner!",
+        "spa": "Šperun es un pequeño restaurante que ofrece auténtica cocina dálmata y croata. Abrió sus puertas en el año 2000, y el número de clientes satisfechos aumenta año tras año. Ubicado en el centro de la ciudad, ofrece impresionantes vistas de la bulliciosa plaza Šperun y al mismo tiempo brinda cierta privacidad del paseo marítimo de Riva. ¡Ven a cenar como lo hacen todos los dálmatas!",
+        "por": "Šperun é um pequeno restaurante com autêntica cozinha dálmata e croata. Foi inaugurado em 2000, e o número de hóspedes satisfeitos aumenta a cada ano. Localizado no centro da cidade, oferece vistas deslumbrantes da vibrante Praça Šperun, ao mesmo tempo que oferece privacidade do passeio marítimo de Riva. Venha jantar como todos os dálmatas fazem!",
+        "cha": "Šperun 是一家小型经营餐厅，提供正宗的达尔马提亚和克罗地亚美食。该酒店于2000年开业，满意的客人数量逐年增加。它位于市中心，享有充满活力的斯佩伦广场的壮丽景色，同时享有里瓦海滨长廊的私密性。像所有达尔马提亚人一样来用餐吧！",
+        "jap": "Šperun は、本格的なダルメシアン料理とクロアチア料理を提供する小さな経営レストランです。2000 年にオープンし、満足するゲストの数は年々増加しています。市内中心部に位置し、リーヴァ遊歩道からのプライバシーを確​​保しながら、活気あるスペラン広場の素晴らしい景色を眺めることができます。すべてのダルマチアのように、食事に来てください！"
+    },
+    {
+        "eng": "Tuesday - Sunday",
+        "hrv":"Utorak - Nedjelja",
+        "ita": "Martedì - Domenica",
+        "fra": "Mardi - Dimanche",
+        "deu": "Dienstag - Sonntag",
+        "spa": "Martes - Domingo",
+        "por": "Terça-feira - Domingo",
+        "cha": "周二至周日",
+        "jap": "火曜日～日曜日"
+    }
+    ,
+    {
+        "eng": "Contact us and make reservation!",
+        "hrv":"Kontaktirajte nas i napravite rezervaciju!",
+        "ita": "Contattaci e prenota!",
+        "fra": "Contactez-nous et réservez!",
+        "deu": "Kontaktieren Sie uns und reservieren Sie!",
+        "spa": "¡Contáctanos y haz tu reserva!",
+        "por": "Entre em contato conosco e faça reserva!",
+        "cha": "联系我们并进行预订！",
+        "jap": "お問い合わせ・ご予約をお願い致します！"
+    },
+    {
+        "eng": "We highly recommend reserving in dinner hours.",
+        "hrv": "Toplo preporučavamo rezervaciju u večernjim satima.",
+        "ita": "Consigliamo vivamente la prenotazione durante l'orario di cena.",
+        "fra": "Nous vous recommandons fortement de réserver pendant les heures de dîner.",
+        "deu": "Wir empfehlen dringend, während der Abendessenzeiten zu reservieren.",
+        "spa": "Recomendamos encarecidamente reservar en horario de cena.",
+        "por": "É altamente recomendável reservar no horário do jantar.",
+        "cha": "我们强烈建议您在晚餐时间预订。",
+        "jap": "ディナータイムのご予約を強くお勧めいたします。"
+    }
+]
