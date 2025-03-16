@@ -391,8 +391,7 @@
         },
         "type": "drink",
         "course": "nonalcoholic-drinks",
-        "price": 4,
-        "picture": "./photos/jana.jpg"
+        "price": 4
     },
     {
         "name": {
@@ -408,8 +407,7 @@
         },
         "type": "drink",
         "course": "nonalcoholic-drinks",
-        "price": 4,
-        "picture": "./photos/jamnica.jpg"
+        "price": 4
     },
     {
         "name": {
@@ -425,8 +423,7 @@
         },
         "type": "drink",
         "course": "nonalcoholic-drinks",
-        "price": 2.7,
-        "picture": "./photos/coca-cola.jpg"
+        "price": 2.7
     },
     {
         "name": {
@@ -442,8 +439,7 @@
         },
         "type": "drink",
         "course": "nonalcoholic-drinks",
-        "price": 2.7,
-        "picture": "./photos/coca-cola-zero.jpg"
+        "price": 2.7
     },
     {
         "name": {
@@ -459,8 +455,7 @@
         },
         "type": "drink",
         "course": "nonalcoholic-drinks",
-        "price": 2.7,
-        "picture": "./photos/sprite.jpg"
+        "price": 2.7
     },
     {
         "name": {
@@ -476,8 +471,7 @@
         },
         "type": "drink",
         "course": "nonalcoholic-drinks",
-        "price": 2.7,
-        "picture": "./photos/fanta.jpg"
+        "price": 2.7
     },
     {
         "name": {
@@ -493,8 +487,7 @@
         },
         "type": "drink",
         "course": "hot-beverages",
-        "price": 1.6,
-        "picture": "./photos/espresso.jpg"
+        "price": 1.6
     },
     {
         "name": {
@@ -510,8 +503,7 @@
         },
         "type": "drink",
         "course": "hot-beverages",
-        "price": 1.9,
-        "picture": "./photos/coffee-milk.jpg"
+        "price": 1.9
     },
     {
         "name": {
@@ -527,8 +519,7 @@
         },
         "type": "drink",
         "course": "hot-beverages",
-        "price": 2,
-        "picture": "./photos/white-coffee.jpg"
+        "price": 2
     },
     {
         "name": {
@@ -544,8 +535,7 @@
         },
         "type": "drink",
         "course": "hot-beverages",
-        "price": 2,
-        "picture": "./photos/cappuccino.jpg"
+        "price": 2
     },
     {
         "name": {
@@ -561,8 +551,7 @@
         },
         "type": "drink",
         "course": "hot-beverages",
-        "price": 2,
-        "picture": "./photos/tea.png"
+        "price": 2
     },
     {
         "name": {
@@ -578,8 +567,7 @@
         },
         "type": "drink",
         "course": "beers",
-        "price": 3.5,
-        "picture": "./photos/karlovacko.jpg"
+        "price": 3.5
     },
     {
         "name": {
@@ -595,8 +583,7 @@
         },
         "type": "drink",
         "course": "beers",
-        "price": 4.5,
-        "picture": "./photos/karlovacko.jpg"
+        "price": 4.5
     },
     {
         "name": {
@@ -612,8 +599,7 @@
         },
         "type": "drink",
         "course": "beers",
-        "price": 3.5,
-        "picture": "./photos/karlovacko-bottle.jpg"
+        "price": 3.5
     },
     {
         "name": {
@@ -629,8 +615,7 @@
         },
         "type": "drink",
         "course": "beers",
-        "price": 3.5,
-        "picture": "./photos/heineken.jpg"
+        "price": 3.5
     },
     {
         "name": {
@@ -646,8 +631,7 @@
         },
         "type": "drink",
         "course": "beers",
-        "price": 3.5,
-        "picture": "./photos/heineken0.jpg"
+        "price": 3.5
     },
     {
         "name": {
@@ -663,8 +647,7 @@
         },
         "type": "drink",
         "course": "beers",
-        "price": 4.5,
-        "picture": "./photos/karlovacko-radler.jpg"
+        "price": 4.5
     },
     {
         "name": {
@@ -680,8 +663,7 @@
         },
         "type": "drink",
         "course": "winelist",
-        "price": 18,
-        "picture": "./photos/posip-milicic.jpg"
+        "price": 18
     },
     {
         "name": {
@@ -697,8 +679,7 @@
         },
         "type": "drink",
         "course": "winelist",
-        "price": 18,
-        "picture": "./photos/plavac-kuna.jpg"
+        "price": 18
     },
     {
         "name": {
@@ -714,8 +695,7 @@
         },
         "type": "drink",
         "course": "winelist",
-        "price": 27,
-        "picture": "./photos/posip-cara.jpg"
+        "price": 27
     },
     {
         "name": {
@@ -731,8 +711,7 @@
         },
         "type": "drink",
         "course": "winelist",
-        "price": 20,
-        "picture": "./photos/korculanka.png"
+        "price": 20
     },
     {
         "name": {
@@ -748,8 +727,7 @@
         },
         "type": "drink",
         "course": "winelist",
-        "price": 23,
-        "picture": "./photos/chardonnay-kos.jpg"
+        "price": 23
     },
     {
         "name": {
@@ -765,8 +743,7 @@
         },
         "type": "drink",
         "course": "winelist",
-        "price": 23,
-        "picture": "./photos/rose-milicic.jpg"
+        "price": 23
     },
     {
         "name": {
@@ -782,8 +759,7 @@
         },
         "type": "drink",
         "course": "winelist",
-        "price": 27,
-        "picture": "./photos/zlatan-plavac.jpg"
+        "price": 27
     },
     {
         "name": {
@@ -799,8 +775,7 @@
         },
         "type": "drink",
         "course": "hard-drinks",
-        "price": 3,
-        "picture": "./photos/rakija.jpg"
+        "price": 3
     },
     {
         "name": {
@@ -816,8 +791,7 @@
         },
         "type": "drink",
         "course": "hard-drinks",
-        "price": 3,
-        "picture": "./photos/travarica.jpg"
+        "price": 3
     },
     {
         "name": {
@@ -833,8 +807,7 @@
         },
         "type": "drink",
         "course": "hard-drinks",
-        "price": 3,
-        "picture": "./photos/lozovaca.jpg"
+        "price": 3
     },
     {
         "name": {
@@ -850,8 +823,7 @@
         },
         "type": "drink",
         "course": "hard-drinks",
-        "price": 3,
-        "picture": "./photos/orahovac.jpg"
+        "price": 3
     },
     {
         "name": {
@@ -867,8 +839,7 @@
         },
         "type": "drink",
         "course": "hard-drinks",
-        "price": 4,
-        "picture": "./photos/pelinkovac.jpg"
+        "price": 4
     }
 
 ]

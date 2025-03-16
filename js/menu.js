@@ -15,7 +15,6 @@ document.querySelectorAll(".menu-dropdown").forEach((dropdown) => {
           element &&
           element.name &&
           element.price &&
-          element.picture &&
           element.course
         ) {
           if (element.course.toString() == this.id) {
@@ -32,7 +31,13 @@ document.querySelectorAll(".menu-dropdown").forEach((dropdown) => {
               : "fa-square-xmark";
 
             menuElement.innerHTML = `
+            ${isFood? 
+              `<div class="menu-element-picture-container">
             <img src="${picture}" class="menu-element-picture" />
+            <i class="fa-solid fa-expand"></i>
+            </div>`
+            : ``}
+            
             <div class="menu-element-description">
                 <p class="menu-element-name">${name}</p>
                 <div class="menu-element-price-and-info">  
@@ -47,7 +52,11 @@ document.querySelectorAll(".menu-dropdown").forEach((dropdown) => {
                 </div>
             </div>
             `;
-
+            menuElementPicture=menuElement.getElementsByClassName("menu-element-picture");
+            document.addEventListener('click',(e)=>{
+              const clickedImage=e.target.closest(".menu-element-picture");
+              if(clickedImage) handlePictureEnlarge(clickedImage);
+            })
             this.append(menuElement);
           }
         }
@@ -79,6 +88,19 @@ addEventListener("DOMContentLoaded", (event) => {
     changeMenuLanguage(selectedLanguage);
   }
 });
+function handlePictureEnlarge(picture){
+  if (document.querySelector(".background-div")) return;
+  picture.classList.add("in-focus");
+  const background=document.createElement("div"); 
+  background.innerHTML='<i class="fa-solid fa-circle-xmark"></i>'
+  background.classList.add("background-div");
+  const mainContainer=document.querySelector("main");
+  mainContainer.append(background);
+  background.addEventListener('click', ()=>{
+    picture.classList.remove("in-focus");
+    mainContainer.removeChild(background);
+  })
+}
 async function changeMenuLanguage(selectedLanguage) {
   document.getElementById("langselect").value = selectedLanguage;
 
@@ -89,10 +111,9 @@ async function changeMenuLanguage(selectedLanguage) {
       throw new Error(`HTTP error! status: ${response.status}`);
     }
     const data = await response.json();
-    const menuTranslation = data; // Access the translations array
+    const menuTranslation = data; 
     const listOfHeadlines = document.querySelectorAll(".headline");
 
-    // Loop through each headline and update based on selected language
     listOfHeadlines.forEach((headline, index) => {
       const translationKey = menuTranslation[index];
       if (translationKey && translationKey[selectedLanguage]) {
