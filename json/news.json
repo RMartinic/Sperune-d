@@ -1,5 +1,17 @@
 [
     {
+        "eng":"Lastest News",
+        "hrv":"Najnovije Vijesti",
+        "fra":"Dernières Nouvelles",
+        "ita":"Ultime Notizie",
+        "deu":"Neueste Nachrichten",
+        "spa":"Últimas Noticias",
+        "por":"Últimas Notícias",
+        "jap":"最新ニュース",
+        "cha":"最新消息"
+    }
+    ,
+    {
         "title": {
             "eng": "2025 season opening",
             "hrv": "Otvaranje sezone 2025",

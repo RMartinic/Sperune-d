@@ -1,8 +1,7 @@
 body {
   background-size: cover;
   background-repeat: repeat-y;
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: Helvetica, sans-serif;
 }
 
 header {
@@ -59,4 +58,41 @@ header button.nav-button i {
 }
 .language-icon{
   margin-right:15px;
+}
+#hamburger-menu{
+  width:40px;
+  height: 40px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
+  z-index: 1;
+}
+#dropdown-menu{
+  display: flex;
+  background-color: #004526;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top:100%;
+  left:-10px;
+  width: 200px;
+  border-radius: 4px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  display: none;
+}
+.dropdown-button{
+  background-color: transparent;
+  color: cornsilk;
+  height: 50px;
+  border: none;
+  border-top: solid 1px cornsilk;
+  width:150px;
+  font-size: 0.75em;
+}
+header button.dropdown-button i {
+  margin-right: 5px;
 }

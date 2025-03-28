@@ -2,6 +2,8 @@ var introtranslation;
 var daystransaltion;
 var contactTranslation;
 var recommedationTranslation;
+const hamburgerMenu=document.getElementById("hamburger-menu");
+const hamburgerDropdownMenu=document.getElementById("dropdown-menu")
 
 fetch("./json/mainpage.json")
   .then((response) => response.json())
@@ -60,5 +62,13 @@ function prevSlide() {
 function nextSlide() {
   plusSlide(1);
 }
+hamburgerMenu.addEventListener('click',()=>{
+  if (hamburgerDropdownMenu.style.display==='none'){
+    hamburgerDropdownMenu.style.display='flex';
+  }
+  else{
+    hamburgerDropdownMenu.style.display='none';
+  }
+});
 
 setInterval(nextSlide, 5000);

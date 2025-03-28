@@ -50,7 +50,8 @@ main {
   background-color: cornsilk;
   padding: 10px;
   border-radius: 4px;
-  margin: 1rem 0;
+  margin: 2rem 0;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .contact-container {
@@ -98,4 +99,10 @@ main {
 }
 #intro{
   width:100%
+}
+#shapo-widget-29f8acf2d577d93d098f{
+  background-color: cornsilk;
+}
+#iframe-mobile-size{
+  display: none;
 }

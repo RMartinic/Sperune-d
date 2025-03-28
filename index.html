@@ -4,6 +4,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/home.css" />
     <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" media="screen and (max-width:768px)" href="./css/mobile-index.css">
     <script
       src="https://kit.fontawesome.com/1ca0ae003b.js"
       crossorigin="anonymous"
@@ -15,6 +16,23 @@
   <body>
     <header>
       <h1>Šperun eat and drink</h1>
+      <div id="hamburger-menu">
+        <i class="fa-solid fa-bars"></i>
+        <div id="dropdown-menu" style="display: none;">
+          <button onclick="location.href='index.html'" class="dropdown-button">
+            <i class="fa-solid fa-house"></i>Home
+          </button>
+          <button onclick="location.href='news.html'" class="dropdown-button">
+            <i class="fa-solid fa-newspaper"></i>News
+          </button>
+          <button onclick="location.href='menu.html'" class="dropdown-button">
+            <i class="fa-solid fa-list"></i>Menu
+          </button>
+          <button onclick="location.href='gallery.html'" class="dropdown-button">
+            <i class="fa-solid fa-images"></i>Gallery
+          </button>
+        </div>
+      </div>
 
       <div id="nav-container">
         <button onclick="location.href='index.html'" class="nav-button">
@@ -147,7 +165,17 @@
             allowfullscreen=""
             loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"
+            id="iframe-desktop-size"
           ></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2893.7119456993946!2d16.432261176717933!3d43.508344371109466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13355dff2a510599%3A0x3f622903f7166f6!2s%C5%A0perun%20eat%20and%20drink%20buffet!5e0!3m2!1shr!2shr!4v1743089365008!5m2!1shr!2shr" 
+          width="250"
+          height="250" 
+          style="border:0;" 
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          id="iframe-mobile-size">
+        </iframe>
         </div>
 
         <div class="contact-container">
@@ -168,18 +196,9 @@
             We highly recommend reserving in dinner hours.
           </p>
         </div>
-      </div>
-        <div
-          class="tagembed-widget"
-          style="width: 1200px; height: 400px"
-          data-widget-id="2137120"
-          data-tags="false"
-          view-url="https://widget.tagembed.com/2137120"
-        ></div>
-        <script
-          src="https://widget.tagembed.com/embed.min.js"
-          type="text/javascript"
-        ></script>
+        </div>
+        <div id="shapo-widget-29f8acf2d577d93d098f"></div>
+        <script id="shapo-embed-js" type="text/javascript" src="https://cdn.shapo.io/js/embed.js" defer></script>
     </main>
   </body>
   <script src="./js/home.js"></script>

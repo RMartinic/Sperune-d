@@ -15,7 +15,8 @@ async function getTranslations(){
             throw new Error(`HTTP error! status: ${response.status}`);
         }
         const data = await response.json()
-        for(let index=0;index<data.length;index++){
+        for(let index=1;index<data.length;index++){
+            changeHeadline(data[0],getSelectedLanguage());
             loadNews(data[index],getSelectedLanguage());
         }
     }
@@ -47,5 +48,9 @@ function loadNews(newsData, selectedLanguage){
     <p class="date">${newsData.date}</p>
     `
     targetedContainer.appendChild(newNews);
+}
+function changeHeadline(translationData,selectedLanguage){
+    const headlineParagraph=document.getElementById("header-news-font");
+    headlineParagraph.innerHTML=`<p id="header-news-font">${translationData[selectedLanguage]}</p>`
 }
 getTranslations();
