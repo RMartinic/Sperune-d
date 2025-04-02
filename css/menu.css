@@ -32,10 +32,11 @@ main {
   border-radius: 4px;
   margin: 2rem;
   height: max-content;
+  width:33%;
 }
 
 .menu-dropdown {
-  width: 700px;
+  width: 100%;
   height: 25px;
   transition: 0.5s;
 }
@@ -74,12 +75,16 @@ main {
   font-size: 20px;
   font-family: Tahoma, sans-serif;
   color: #004526;
+  width:100%;
 }
 
 .menu-element-picture {
-  width: 400px;
+  width: 100%;
   height: 200px;
   border-radius: 4px;
+}
+.menu-element-picture-container{
+  width:100%;
 }
 
 .menu-element-name {
@@ -98,8 +103,9 @@ main {
 
 .menu-element-price-and-info {
   display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
+    flex-direction: column;
+    justify-content: end;
+    align-items: start;
 }
 
 .headline {

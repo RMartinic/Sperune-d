@@ -62,7 +62,8 @@ function prevSlide() {
 function nextSlide() {
   plusSlide(1);
 }
-hamburgerMenu.addEventListener('click',()=>{
+hamburgerMenu.addEventListener('click',(e)=>{
+  if(e.target.id==="language-select") return;
   if (hamburgerDropdownMenu.style.display==='none'){
     hamburgerDropdownMenu.style.display='flex';
   }

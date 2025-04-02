@@ -1,0 +1,61 @@
+#nav-container{
+    display: none;
+}
+#hamburger-menu{
+    display: block;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top:-50px;
+}
+.food-menu{
+    width:80%;
+    position: relative;
+}
+.drinks-menu{
+    width:80%;
+    position: relative;
+}
+.menu-dropdown{
+    width: 100%;
+}
+.menu-option{
+    position: relative;
+    width: 100%;
+}
+.menu-option::before{
+    position:absolute;
+    left:95%;
+}
+h1{
+    font-size: 2em;
+}
+header{
+    text-align: center;
+    width: 100%;
+}
+body{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+.menu-element-picture-container{
+    width:50%;
+}
+
+.menu-element-picture{
+    width: 100%;
+}
+.in-focus{
+    top:20%;
+    left:10%;
+    width:80%;
+}
+.fa-circle-xmark{
+    top:28%;
+    left:90%;
+}

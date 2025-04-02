@@ -70,6 +70,7 @@ header button.nav-button i {
   align-items: center;
   font-size: 1.5em;
   z-index: 1;
+  display: none;
 }
 #dropdown-menu{
   display: flex;
@@ -82,7 +83,6 @@ header button.nav-button i {
   width: 200px;
   border-radius: 4px;
   box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  display: none;
 }
 .dropdown-button{
   background-color: transparent;

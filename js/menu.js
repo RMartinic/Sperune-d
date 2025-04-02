@@ -1,6 +1,8 @@
 let menuData;
 let menuTranslation;
 let selectedLanguage = "eng";
+const hamburgerMenu=document.getElementById("hamburger-menu");
+const hamburgerDropdownMenu=document.getElementById("dropdown-menu");
 
 document.querySelectorAll(".menu-dropdown").forEach((dropdown) => {
   dropdown.addEventListener("click", function (event) {
@@ -76,16 +78,23 @@ fetch("./json/menu.json")
     if (data) menuData = data;
   });
 
+function changeLanguage() {
+  const language = document.getElementById("language-select-hamburger").value;
+  localStorage.setItem("selectedLanguage", language);
+  location.reload();
+}
 function chglang() {
-  var language = document.getElementById("langselect").value;
+
+  const language = document.getElementById("language-select").value;
   localStorage.setItem("selectedLanguage", language);
   location.reload();
 }
 addEventListener("DOMContentLoaded", (event) => {
   let savedLanguage = localStorage.getItem("selectedLanguage");
   if (savedLanguage) selectedLanguage = savedLanguage;
-  if (selectedLanguage !== "eng") {
+    if (selectedLanguage !== "eng") {
     changeMenuLanguage(selectedLanguage);
+  
   }
 });
 function handlePictureEnlarge(picture){
@@ -102,7 +111,8 @@ function handlePictureEnlarge(picture){
   })
 }
 async function changeMenuLanguage(selectedLanguage) {
-  document.getElementById("langselect").value = selectedLanguage;
+  document.getElementById("language-select").value = selectedLanguage;
+  document.getElementById("language-select-hamburger").value = selectedLanguage;
 
   try {
     const response = await fetch("./json/menu-translation.json");
@@ -128,3 +138,13 @@ async function changeMenuLanguage(selectedLanguage) {
     console.error("Error fetching or processing menu translation:", error);
   }
 }
+hamburgerMenu.addEventListener('click',(e)=>{
+  if(e.target.id==="language-select-hamburger") return;
+  if (hamburgerDropdownMenu.style.display==='none'){
+    hamburgerDropdownMenu.style.display='flex';
+  }
+  else{
+    hamburgerDropdownMenu.style.display='none';
+  }
+});
+

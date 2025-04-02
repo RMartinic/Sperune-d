@@ -42,6 +42,9 @@ img{
 }
 #intro-text{
     width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .contact-container{
     width: 100%;
@@ -62,4 +65,7 @@ main{
 body{
     max-width: 100%;
     overflow-x: hidden;
+}
+#hamburger-menu{
+    display: block;
 }

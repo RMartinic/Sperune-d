@@ -31,6 +31,24 @@
           <button onclick="location.href='gallery.html'" class="dropdown-button">
             <i class="fa-solid fa-images"></i>Gallery
           </button>
+          <div class="dropdown-button">
+            <i class="fa-solid fa-language language-icon"></i>
+            <select
+              name="lang"
+              id="language-select"
+              onchange="chglang()"
+            >
+              <option value="eng">English</option>
+              <option value="hrv">Hrvatski</option>
+              <option value="fra">Français</option>
+              <option value="ita">Italiano</option>
+              <option value="deu">Deutsch</option>
+              <option value="spa">Español</option>
+              <option value="por">Português</option>
+              <option value="cha">中国人</option>
+              <option value="jap">日本語</option>
+            </select>
+          </div>
         </div>
       </div>
 
@@ -53,7 +71,7 @@
           <select
             name="lang"
             id="language-select"
-            onchange="chglang(Array)"
+            onchange="chglang()"
           >
             <option value="eng">English</option>
             <option value="hrv">Hrvatski</option>
