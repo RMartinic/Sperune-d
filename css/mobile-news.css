@@ -1,0 +1,43 @@
+#hamburger-menu{
+    display: block;
+}
+#nav-container{
+    display: none;
+}
+h1{
+    font-size: 2em;
+}
+header{
+    text-align: center;
+    width: 100%;
+}
+main{
+    top: 50px;
+}
+body{
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#news-container{
+    flex-direction: column;
+}
+.news-picture{
+    position: absolute;
+    left:55%;
+    width:35%;
+    margin-top:10px;
+}
+.news-article{
+    width: 93%;
+    height: auto;
+}
+.vertical-line{
+    right:0px;
+    height: 70%;
+}
+#header-news-font{
+    font-size: 1.6em;
+}
+.article-headline{
+    font-size: 1.2em;
+}

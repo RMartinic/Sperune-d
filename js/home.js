@@ -28,6 +28,17 @@ function chglang(data) {
   var recommedationText = document.getElementById("recommend-text");
   recommedationText.innerText = recommedationTranslation[sel];
 }
+function changeLanguage(data){
+  var sel = document.getElementById("language-select-hamburger").value;
+  var intro = document.getElementById("intro");
+  intro.innerText = introtranslation[sel];
+  var days = document.getElementById("working-days");
+  days.innerText = daystransaltion[sel];
+  var contactMessage = document.getElementById("contact-message");
+  contactMessage.innerText = contactTranslation[sel];
+  var recommedationText = document.getElementById("recommend-text");
+  recommedationText.innerText = recommedationTranslation[sel];
+}
 
 let slideIndex = 1;
 
@@ -63,7 +74,7 @@ function nextSlide() {
   plusSlide(1);
 }
 hamburgerMenu.addEventListener('click',(e)=>{
-  if(e.target.id==="language-select") return;
+  if(e.target.id==="language-select-hamburger") return;
   if (hamburgerDropdownMenu.style.display==='none'){
     hamburgerDropdownMenu.style.display='flex';
   }

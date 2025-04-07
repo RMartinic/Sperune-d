@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="./css/normalize.css" />
     <link rel="stylesheet" href="./css/news.css" />
     <link rel="stylesheet" href="./css/common.css" />
+    <link rel="stylesheet" media="screen and (max-width:1100px)" href="./css/mobile-news.css" />
     <script
       src="https://kit.fontawesome.com/1ca0ae003b.js"
       crossorigin="anonymous"
@@ -15,6 +16,41 @@
 <body>
     <header>
         <h1>Šperun eat and drink</h1>
+        <div id="hamburger-menu">
+          <i class="fa-solid fa-bars"></i>
+          <div id="dropdown-menu" style="display: none;">
+            <button onclick="location.href='index.html'" class="dropdown-button">
+              <i class="fa-solid fa-house"></i>Home
+            </button>
+            <button onclick="location.href='news.html'" class="dropdown-button">
+              <i class="fa-solid fa-newspaper"></i>News
+            </button>
+            <button onclick="location.href='menu.html'" class="dropdown-button">
+              <i class="fa-solid fa-list"></i>Menu
+            </button>
+            <button onclick="location.href='gallery.html'" class="dropdown-button">
+              <i class="fa-solid fa-images"></i>Gallery
+            </button>
+            <div class="dropdown-button">
+              <i class="fa-solid fa-language language-icon"></i>
+              <select
+                name="lang"
+                id="language-select-hamburger"
+                onchange="changeLanguage()"
+              >
+                <option value="eng">English</option>
+                <option value="hrv">Hrvatski</option>
+                <option value="fra">Français</option>
+                <option value="ita">Italiano</option>
+                <option value="deu">Deutsch</option>
+                <option value="spa">Español</option>
+                <option value="por">Português</option>
+                <option value="cha">中国人</option>
+                <option value="jap">日本語</option>
+              </select>
+            </div>
+          </div>
+        </div>
   
         <div id="nav-container">
           <button onclick="location.href='index.html'" class="nav-button">

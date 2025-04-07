@@ -47,16 +47,14 @@ main {
 img {
   width: 550px;
   height: 450px;
-  margin: 10px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
-  margin:5px 10px 5px 10px;
+  margin: 20px 5px 20px 5px;
+
   object-fit: contain;
 }
 
 img:hover {
   cursor: pointer;
   transition: 0.3s;
-  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.5);
 }
 
 .clicked {

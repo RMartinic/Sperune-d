@@ -1,3 +1,5 @@
+const hamburgerMenu=document.getElementById("hamburger-menu");
+const hamburgerDropdownMenu=document.getElementById("dropdown-menu");
 function getSelectedLanguage(){
     const localStorageLanguage=localStorage.getItem("selectedLanguage");
     if(localStorageLanguage){
@@ -30,6 +32,11 @@ function chglang(){
     localStorage.setItem("selectedLanguage", selectedLanguage);
     location.reload();
 }
+function changeLanguage(){
+    const selectedLanguage=document.getElementById("language-select-hamburger").value
+    localStorage.setItem("selectedLanguage", selectedLanguage);
+    location.reload();
+}
 
 function loadNews(newsData, selectedLanguage){
     const targetedContainer=document.getElementById("news-container");
@@ -50,7 +57,18 @@ function loadNews(newsData, selectedLanguage){
     targetedContainer.appendChild(newNews);
 }
 function changeHeadline(translationData,selectedLanguage){
+    document.getElementById("langselect").value=selectedLanguage;
+    document.getElementById("language-select-hamburger").value=selectedLanguage;
     const headlineParagraph=document.getElementById("header-news-font");
     headlineParagraph.innerHTML=`<p id="header-news-font">${translationData[selectedLanguage]}</p>`
 }
 getTranslations();
+hamburgerMenu.addEventListener('click',(e)=>{
+    if(e.target.id==="language-select-hamburger") return;
+    if (hamburgerDropdownMenu.style.display==='none'){
+      hamburgerDropdownMenu.style.display='flex';
+    }
+    else{
+      hamburgerDropdownMenu.style.display='none';
+    }
+  });
